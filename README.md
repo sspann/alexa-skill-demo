@@ -1,14 +1,10 @@
-# Your StdLib Alexa Skill
+# `alexa-skill-demo`
 
-This is a template for your StdLib Alexa Skill.
-
-It's easy to get started, to create a new intent simply create a file
-with the name of your intent in `./alexa/intents/`.
-
-You'll see a sample `HelloWorld` intent already in there (the name is
-  matched without the `.js` file.)
+`alexa-skill-demo` shows how to get started with a basic Alexa skill.
 
 ## Sample Intent: HelloWorld
+
+Refer to the [Alexa Skills doc](https://developer.amazon.com/) for more details
 
 ```javascript
 const lib = require('lib');
@@ -26,5 +22,6 @@ with a `callback` - the first parameter is an `Error` parameter, and if provided
 Alexa will respond with an error. Otherwise Alexa will respond with the string
 provided by the second parameter.
 
-For more information on Alexa Skills please check out
-https://developer.amazon.com/.
+## Contributors
+
+* Steven Spann <sspann21@gmail.com> - Software Developer
